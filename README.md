@@ -6,6 +6,7 @@ Solutions to exercises on the [sql-ex.ru](https://sql-ex.ru/)
 Использовалась СУБД при решении задач: PostgreSQL
 
 Схема БД состоит из четырех таблиц:
+
 — Product(maker, model, type)
 — PC(code, model, speed, ram, hd, cd, price)
 — Laptop(code, model, speed, ram, hd, price, screen)
