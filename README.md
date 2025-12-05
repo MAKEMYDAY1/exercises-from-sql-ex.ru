@@ -6,10 +6,10 @@ Solutions to exercises on the [sql-ex.ru](https://sql-ex.ru/)
 Использовалась СУБД при решении задач: PostgreSQL
 
 Схема БД состоит из четырех таблиц:
-Product(maker, model, type)
-PC(code, model, speed, ram, hd, cd, price)
-Laptop(code, model, speed, ram, hd, price, screen)
-Printer(code, model, color, type, price)
+— Product(maker, model, type)
+— PC(code, model, speed, ram, hd, cd, price)
+— Laptop(code, model, speed, ram, hd, price, screen)
+— Printer(code, model, color, type, price)
 
 Таблица Product представляет производителя (maker), номер модели (model) и тип ('PC' - ПК, 'Laptop' - ПК-блокнот или 'Printer' - принтер). Предполагается, что номера моделей в таблице Product уникальны для всех производителей и типов продуктов.
 
